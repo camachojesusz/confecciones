@@ -8,7 +8,7 @@
       <!-- Menu -->
          <ul class="menu">
             <li>&copy; <?php echo date('Y');?></li>
-            <li>Design: <?php echo anchor('https://github.com', 'Jesús Camacho', 'target="_blank"') ?></li>
+            <li>Design: <?php echo anchor('https://github.com/camachojesusz', 'Jesús Camacho', 'target="_blank"') ?></li>
          </ul>
    </footer>
 <!-- Scripts -->

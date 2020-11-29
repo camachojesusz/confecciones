@@ -1,7 +1,7 @@
 <?php $this->load->view('header'); ?>
 <!-- Header -->
 <header id="header">
-	<h1 style="color: #CC0066">Confecciones <small style="color: #000;">Chiviwis</small></h1>
+	<h1 class="title">Confecciones <small class="subtitle">Chiviwis</small></h1>
 	<nav>
 		<ul>
 			<li><a href="#intro">Inicio</a></li>
@@ -16,12 +16,14 @@
 <section id="intro" class="main style1 dark fullscreen">
 	<div class="content">
 		<header>
-			<h2>Hey.</h2>
+			<h2>¡Hola!</h2>
 		</header>
 		<p>
-			Welcome to <strong>Big Picture</strong> a responsive site template designed
+			<!-- Welcome to <strong>Big Picture</strong> a responsive site template designed
 			by <a href="https://html5up.net">HTML5 UP</a>, built on <a href="http://skel.io">Skel</a>,
-			and released for free under the <a href="https://html5up.net/license">Creative Commons Attribution license</a>.
+			and released for free under the <a href="https://html5up.net/license">Creative Commons Attribution license</a>. -->
+			Te damos la bienvenida al sitio oficial de <strong class="title">Confecciones <span class="subtitle">Chiviwis</span></strong>
+			conoce nuestros productos y todo lo que podemos ofrecerte
 		</p>
 		<footer>
 			<a href="#one" class="button style2 down">More</a>
@@ -60,7 +62,7 @@
 <section id="work" class="main style3 primary">
 	<div class="content">
 		<header>
-			<h2>My Work</h2>
+			<h2>Nuestro trabajo</h2>
 			<p>
 				Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
 				Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis

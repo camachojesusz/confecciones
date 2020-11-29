@@ -1,4 +1,17 @@
 .seccion{
-	padding-top: 50px;
+	padding-top: 55px;
 	background: #EAECEE;
+}
+
+.title{
+	color: #CC0066
+}
+
+.subtitle{
+	color: #000;
+}
+
+.intro_text{
+	background: rgba(0, 0, 0, 0.4);
+	color: #fff;
 }

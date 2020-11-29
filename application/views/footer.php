@@ -2,8 +2,9 @@
    <footer id="footer">
       <!-- Icons -->
          <ul class="actions">
-            <li><?php echo anchor(base_url(), '<span class="label">Facebook</span>', 'class="icon fa-facebook"'); ?></li>
-            <li><?php echo anchor(base_url(), '<span class="label">Instagram</span>', 'class="icon fa-instagram"'); ?></li>
+            <li><?php echo anchor(base_url(), '<span class="label">Facebook</span>', 'class="icon fa-facebook" target="_blank" title="Síguenos en Facebook"'); ?></li>
+            <li><?php echo anchor(base_url(), '<span class="label">Instagram</span>', 'class="icon fa-instagram" target="_blank" title="Síguenos en Instagram"'); ?></li>
+            <li><?php echo anchor('https://api.whatsapp.com/send?phone=517226351114&text=Hola me interesan sus productos', '<span class="label">WhatsApp</span>', 'class="icon fa-whatsapp" target="_blank" title="Escríbenos en WhatsApp"'); ?></li>
          </ul>
       <!-- Menu -->
          <ul class="menu">
